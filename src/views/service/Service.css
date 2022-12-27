@@ -1,0 +1,13 @@
+.service {
+  margin-top: 105px;
+}
+.service .container .service_wrapper {
+  width: 100%;
+}
+.service .container .service_wrapper .service_Title {
+  text-align: center;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}/*# sourceMappingURL=Service.css.map */

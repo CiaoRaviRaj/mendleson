@@ -1,0 +1,23 @@
+.serviceElement {
+  display: flex;
+  align-items: center;
+}
+.serviceElement .serviceElement_description {
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+}
+.serviceElement .serviceElement_description h1 {
+  text-transform: capitalize;
+}
+.serviceElement .serviceElement_description p {
+  margin-top: 20px;
+}
+.serviceElement .serviceElement_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=ServiceElement.css.map */

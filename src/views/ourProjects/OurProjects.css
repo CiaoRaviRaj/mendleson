@@ -1,0 +1,90 @@
+.ourProjects {
+  margin-top: 119px;
+}
+.ourProjects .container .ourProjects_wrapper {
+  width: 100%;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_title {
+  text-align: center;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container {
+  margin-top: 34px;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_left {
+  position: relative;
+  overflow: hidden;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_left:hover .ourProjects_images_container_left_hover {
+  top: 0;
+  display: block;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_left .ourProjects_images_container_left_hover {
+  position: absolute;
+  z-index: 2;
+  top: 100%;
+  background-color: rgba(170, 170, 170, 0.3333333333);
+  width: 554px;
+  height: 100%;
+  color: #fff;
+  transition: all 0.5s ease-in;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_left .ourProjects_images_container_left_hover .ourProjects_images_container_left_hover_title {
+  position: absolute;
+  left: 12%;
+  top: 65%;
+  font-size: 46px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #fff;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image1 {
+  overflow: hidden;
+  position: relative;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image1:hover .ourProjects_images_container_right_hover {
+  left: 0;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image1 .ourProjects_images_container_right_hover {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: -100%;
+  background-color: rgba(170, 170, 170, 0.3333333333);
+  width: 554px;
+  height: 100%;
+  color: #fff;
+  transition: all 1s ease-in;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image1 .ourProjects_images_container_right_hover .ourProjects_images_container_right_hover_title {
+  position: absolute;
+  top: 65%;
+  left: 12%;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image2 {
+  margin-top: 22px;
+  position: relative;
+  overflow: hidden;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image2:hover .ourProjects_images_container_right_hover {
+  left: 0;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image2 .ourProjects_images_container_right_hover {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 100%;
+  background-color: rgba(170, 170, 170, 0.3333333333);
+  width: 554px;
+  height: 100%;
+  color: #fff;
+  transition: all 0.5s ease-in;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image2 .ourProjects_images_container_right_hover .ourProjects_images_container_right_hover_title {
+  position: absolute;
+  top: 65%;
+  left: 12%;
+  text-transform: uppercase;
+  font-weight: 800;
+}/*# sourceMappingURL=OurProjects.css.map */

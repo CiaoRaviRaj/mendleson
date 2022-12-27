@@ -1,0 +1,20 @@
+.ourClients {
+  margin-top: 128px;
+}
+.ourClients .container .ourClients_wrapper {
+  width: 100%;
+}
+.ourClients .container .ourClients_wrapper .ourClients_title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.ourClients .container .ourClients_wrapper .ourClients_logos_row1 {
+  margin-top: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+.ourClients .container .ourClients_wrapper .ourClients_logos_row2 {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=OurClients.css.map */

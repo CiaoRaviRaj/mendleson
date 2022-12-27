@@ -1,0 +1,22 @@
+
+.ourTeam {
+    margin-top: 182px;
+
+    .container {
+        .ourTeam_wrapper {
+            .ourTeam_title {
+                text-align: center;
+            }
+            .ourTeam_card_container {
+                margin-top: 40px;
+                display: flex;
+                justify-content: space-between;
+
+                .card {
+                    border: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

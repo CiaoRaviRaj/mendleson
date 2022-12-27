@@ -1,0 +1,106 @@
+.ourProjects {
+  margin-top: 119px;
+  .container {
+    .ourProjects_wrapper {
+        width: 100%;
+      .ourProjects_title {
+        text-align: center;
+      }
+
+      .ourProjects_images_container {
+        margin-top: 34px;
+        .ourProjects_images_container_left {
+          position: relative;
+          img {
+          }
+          overflow: hidden;
+          &:hover {
+            .ourProjects_images_container_left_hover {
+              top: 0;
+              display: block;
+            }
+          }
+          .ourProjects_images_container_left_hover {
+            position: absolute;
+            z-index: 2;
+            top: 100%;
+            background-color: #aaaaaa55;
+            width: 554px;
+            height: 100%;
+            color: #fff;
+            transition: all 0.5s ease-in;
+            .ourProjects_images_container_left_hover_title {
+              position: absolute;
+              left: 12%;
+              top: 65%;
+              font-size: 46px;
+              font-weight: 900;
+              text-transform: uppercase;
+              color: #fff;
+            }
+          }
+        }
+
+        .ourProjects_images_container_right {
+          .ourProjects_right_image1 {
+            overflow: hidden;
+            position: relative;
+            &:hover {
+              .ourProjects_images_container_right_hover {
+                left: 0;
+              }
+            }
+            .ourProjects_images_container_right_hover {
+              position: absolute;
+              z-index: 2;
+              top: 0;
+              left: -100%;
+              background-color: #aaaaaa55;
+              width: 554px;
+              height: 100%;
+              color: #fff;
+
+              transition: all 1s ease-in;
+              .ourProjects_images_container_right_hover_title {
+                position: absolute;
+                top: 65%;
+                left: 12%;
+                text-transform: uppercase;
+                font-weight: 800;
+              }
+            }
+          }
+          .ourProjects_right_image2 {
+            margin-top: 22px;
+            position: relative;
+            overflow: hidden;
+            &:hover {
+              .ourProjects_images_container_right_hover {
+                left: 0;
+              }
+            }
+            .ourProjects_images_container_right_hover {
+              position: absolute;
+              z-index: 2;
+              top: 0;
+              left: 100%;
+              background-color: #aaaaaa55;
+              width: 554px;
+              height: 100%;
+                color: #fff;
+              transition: all 0.5s ease-in;
+
+              .ourProjects_images_container_right_hover_title {
+                position: absolute;
+                top: 65%;
+                left: 12%;
+                text-transform: uppercase;
+                font-weight: 800;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

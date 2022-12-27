@@ -1,0 +1,25 @@
+.about {
+    min-height: 576.81px;
+    display: flex;
+    align-items: center;
+  .container {
+    .about_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+      .about_left {
+
+      }
+      .about_right {
+        .about_right_card_container {
+          .card {
+            border: none;
+            .card-header {
+              background: #fff;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

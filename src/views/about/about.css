@@ -1,0 +1,16 @@
+.about {
+  min-height: 576.81px;
+  display: flex;
+  align-items: center;
+}
+.about .container .about_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.about .container .about_wrapper .about_right .about_right_card_container .card {
+  border: none;
+}
+.about .container .about_wrapper .about_right .about_right_card_container .card .card-header {
+  background: #fff;
+  border: none;
+}/*# sourceMappingURL=about.css.map */

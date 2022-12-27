@@ -1,0 +1,57 @@
+.footer {
+  margin-top: 75px;
+}
+.footer .container .footer_wrapper {
+  width: 100%;
+}
+.footer .container .footer_wrapper .footer_contexts {
+  min-height: 208px;
+  padding-top: 42px;
+  padding-bottom: 41px;
+  display: flex;
+  justify-content: space-around;
+  background: #BFDBFF;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_socials .footer_socials_title {
+  font-weight: 700;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_socials .footer_socials_logos {
+  display: flex;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_socials .footer_socials_logos span {
+  margin-right: 14px;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_socials .footer_socials_logos p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_explores .footer_explores_title {
+  font-weight: 700;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_explores .footer_explores_items p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_contacts .footer_contacts_title {
+  font-weight: 700;
+}
+.footer .container .footer_wrapper .footer_contexts .footer_contacts .footer_contacts_items p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer .container .footer_wrapper .footer_contexts .user_details {
+  align-self: flex-start;
+}
+.footer .container .footer_wrapper .footer_contexts .user_details .user_email_label {
+  font-weight: 700;
+}
+.footer .container .footer_wrapper .footer_contexts .user_details .user_email p {
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer .container .footer_wrapper .footer_copyright {
+  min-height: 61px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=Footer.css.map */

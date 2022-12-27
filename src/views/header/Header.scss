@@ -1,0 +1,42 @@
+.header {
+    width: 100vw;
+    
+    position: sticky;
+    top: 0;
+    max-height: 121px;
+    background: none;
+  .container {
+
+
+    nav {
+      width: 100%;
+      display: flex;
+      
+     
+      .navbar-brand {
+        
+        order: 1;
+        img {
+            width: 100%;
+
+        }
+      }
+
+      .navbar-toggler {
+        order: 2;
+      }
+
+      .navbar-collapse {
+        
+        order: 3;
+        
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px 35px;
+        }
+      }
+    }
+  }
+}
