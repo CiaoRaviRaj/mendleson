@@ -1,24 +1,49 @@
-
-
 .ourClients {
-    margin-top: 128px;
-    .container {
-        .ourClients_wrapper {
-            width: 100%;
-            .ourClients_title {
-                text-align: center;
-                text-transform: uppercase;
-            }
-            .ourClients_logos_row1 {
-                margin-top: 43px;
-                display: flex;
-                justify-content: space-between;
-            }
-            .ourClients_logos_row2 {
-                margin-top: 65px;
-                display: flex;
-                justify-content: space-between;
-            }
+  margin-top: 128px;
+  position: relative;
+  .container {
+    .ourClients_wrapper {
+      width: 100%;
+      .ourClients_title {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        span {
+            position: absolute;
+            top: 30px;
+            
         }
+      }
+      .ourClients_logos_row1 {
+        width: 100%;
+        margin-top: 43px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 30px;
+        align-items: center;
+
+        img {
+          margin: 0 auto;
+          object-fit: contain;
+        }
+      }
+      .ourClients_logos_row2 {
+        margin-top: 65px;
+        width: 100%;
+        margin-top: 43px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px 20px;
+        align-items: center;
+        img {
+          margin: 0 auto;
+          object-fit: contain;
+        }
+      }
     }
+  }
 }

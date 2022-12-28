@@ -11,8 +11,8 @@ function Footer() {
     <footer className="footer">
       <div className="container section_wrapper">
         <div className="footer_wrapper">
-          <div className="footer_contexts">
-            <div className="footer_socials">
+          <div className="row footer_contexts">
+            <div className="col-md-3 col-sm-12 footer_socials">
               <p className="footer_socials_title">Social</p>
               <div className="footer_socials_logos">
                 <span>
@@ -34,7 +34,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="footer_explores">
+            <div className="col-md-3 col-sm-12  footer_explores">
               <p className="footer_explores_title">Explore</p>
               <div className="footer_explores_items">
                 <p>Service</p>
@@ -47,7 +47,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="footer_contacts">
+            <div className="col-md-3 col-sm-12  footer_contacts">
               <p className="footer_contacts_title">Contact</p>
               <div className="footer_contacts_items">
                 <p>Lorem Ipsum dummy address</p>
@@ -60,7 +60,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="user_details">
+            <div className="col-xl-3 col-12 user_details">
               <div className="user_email_label">
                 <p>Email</p>
               </div>

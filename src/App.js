@@ -4,7 +4,6 @@ import About from "./views/about/About";
 import Footer from "./views/footer/Footer";
 import Header from "./views/header/Header";
 import Hero from "./views/hero/Hero";
-import LayeringImages from "./views/layeringImages/LayeringImages";
 import OurClients from "./views/ourClients/OurClients";
 import OurProjects from "./views/ourProjects/OurProjects";
 import OurTeam from "./views/ourTeam/OurTeam";
@@ -22,7 +21,7 @@ function App() {
       <OurProjects />
       <OurClients />
       <Footer />
-      <LayeringImages />
+      
     </div>
   );
 }

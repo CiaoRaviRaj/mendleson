@@ -1,11 +1,25 @@
 .about {
+  margin-top: 77px;
   min-height: 576.81px;
   display: flex;
   align-items: center;
 }
-.about .container .about_wrapper {
+.about .container .about_wrapper .about_left {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.about .container .about_wrapper .about_left .about_left_image img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.about .container .about_wrapper .about_right .about_right_card_container h1 {
+  font-weight: 500;
+  font-size: 48px;
+}
+.about .container .about_wrapper .about_right .about_right_card_container p {
+  margin-top: 20px;
 }
 .about .container .about_wrapper .about_right .about_right_card_container .card {
   border: none;
@@ -13,4 +27,8 @@
 .about .container .about_wrapper .about_right .about_right_card_container .card .card-header {
   background: #fff;
   border: none;
+}
+.about .container .about_wrapper .about_right .about_right_card_container .card .card-header .card-body .card-title {
+  font-weight: 500;
+  font-size: 24px;
 }/*# sourceMappingURL=about.css.map */

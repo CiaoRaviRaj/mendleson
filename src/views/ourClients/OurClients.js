@@ -11,13 +11,28 @@ import OurClientsImage6 from "../../assets/images/ourClients/row2/ourClients6.pn
 import OurClientsImage7 from "../../assets/images/ourClients/row2/ourClients7.png";
 import OurClientsImage8 from "../../assets/images/ourClients/row2/ourClients8.png";
 import OurClientsImage9 from "../../assets/images/ourClients/row2/ourClients9.png";
+import layeringImage11 from "../../assets/images/layeringImage/Asset11.png";
+import SettingImageWithAbsoluteValue from "../../components/SettingImageWithAbsoluteValue";
+import line from "../../assets/images/line.png";
 
 function OurClients() {
   return (
     <div className="ourClients">
+      <SettingImageWithAbsoluteValue
+        imgUrl={layeringImage11}
+        top={-66}
+        left={-26}
+      />
       <div className="container section_wrapper">
         <div className="ourClients_wrapper">
-            <h1 className="ourClients_title"> Our clients</h1>
+          <h1 className="ourClients_title">
+          
+            Our clients
+            <span>
+              <img src={line} alt="line" />
+            </span>
+          </h1>
+
           <div className="ourClients_logos_row1">
             <img src={OurClientsImage1} alt="Our Client 1" />
             <img src={OurClientsImage2} alt="Our Client 2" />

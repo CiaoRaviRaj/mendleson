@@ -1,19 +1,20 @@
 .section_line {
   position: relative;
+  width: 100%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .section_line .section_line_thine {
-  min-width: 200px;
-  border: 1px solid #a9a9a9;
+  margin-left: 10px;
+  order: 2;
+  width: 20%;
+  border: 1px solid #000;
   height: 1px;
   background: #a9a9a9;
 }
 .section_line .section_line_thick {
-  justify-self: flex-start;
-  width: 256px;
-  position: absolute;
+  order: 1;
+  width: 80%;
   min-height: 7px;
   background: #a9a9a9;
   border-radius: 4px;

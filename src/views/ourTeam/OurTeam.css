@@ -1,15 +1,36 @@
 .ourTeam {
   margin-top: 182px;
+  position: relative;
 }
 .ourTeam .container .ourTeam_wrapper .ourTeam_title {
   text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ourTeam .container .ourTeam_wrapper .ourTeam_title span {
+  position: absolute;
+  top: 30px;
 }
 .ourTeam .container .ourTeam_wrapper .ourTeam_card_container {
   margin-top: 40px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px 20px;
+  flex-wrap: wrap;
 }
 .ourTeam .container .ourTeam_wrapper .ourTeam_card_container .card {
   border: none;
+  background: none;
   text-align: center;
+}
+.ourTeam .container .ourTeam_wrapper .ourTeam_card_container .card .card-body .card-title {
+  margin-top: 53px;
+  padding: 10px 20px;
+  border-radius: 22px;
+}
+.ourTeam .container .ourTeam_wrapper .ourTeam_card_container .card .card-body .card-title:hover {
+  background: rgba(36, 159, 216, 0.508);
 }/*# sourceMappingURL=OurTeam.css.map */

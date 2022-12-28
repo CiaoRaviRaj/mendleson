@@ -1,5 +1,6 @@
 .service {
   margin-top: 105px;
+  position: relative;
 }
 .service .container .service_wrapper {
   width: 100%;
@@ -10,4 +11,16 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-weight: 500;
+  font-size: 48px;
+  position: relative;
+}
+.service .container .service_wrapper .service_Title h1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.service .container .service_wrapper .service_Title h1 span {
+  position: absolute;
+  top: 30px;
 }/*# sourceMappingURL=Service.css.map */

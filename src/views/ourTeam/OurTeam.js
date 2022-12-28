@@ -5,13 +5,28 @@ import "./OurTeam.css";
 import personImage1 from "../../assets/images/ourTeam/Person1.png";
 import personImage2 from "../../assets/images/ourTeam/Person2.png";
 import personImage3 from "../../assets/images/ourTeam/Person3.png";
+import layeringImage9 from "../../assets/images/layeringImage/Asset9.png";
+import SettingImageWithAbsoluteValue from "../../components/SettingImageWithAbsoluteValue";
+import line from "../../assets/images/line.png";
 
 function OurTeam() {
   return (
     <section className="ourTeam">
+      <SettingImageWithAbsoluteValue
+        imgUrl={layeringImage9}
+        top={-182}
+        left={0}
+      />
+
       <div className="container section_wrapper">
         <div className="ourTeam_wrapper">
-            <h1 className="ourTeam_title">OUR TEAM</h1>
+          <h1 className="ourTeam_title">
+            OUR TEAM
+            <span>
+              <img src={line} alt="line" />
+            </span>
+          </h1>
+
           <div className="ourTeam_card_container">
             <div className="card">
               <div className="card-img-top">

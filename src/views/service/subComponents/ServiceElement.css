@@ -1,6 +1,13 @@
 .serviceElement {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin-bottom: 36px;
+}
+@media screen and (max-width: 767px) {
+  .serviceElement {
+    justify-content: center;
+  }
 }
 .serviceElement .serviceElement_description {
   text-align: left;
@@ -10,8 +17,17 @@
   justify-content: center;
   text-align: right;
 }
+@media screen and (max-width: 767px) {
+  .serviceElement .serviceElement_description {
+    text-align: center !important;
+    order: 2;
+    margin-top: 20px;
+  }
+}
 .serviceElement .serviceElement_description h1 {
   text-transform: capitalize;
+  font-weight: 500;
+  font-size: 42px;
 }
 .serviceElement .serviceElement_description p {
   margin-top: 20px;
@@ -20,4 +36,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.serviceElement .serviceElement_image .serviceElement_image_container img {
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }/*# sourceMappingURL=ServiceElement.css.map */

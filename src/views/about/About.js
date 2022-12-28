@@ -1,21 +1,31 @@
 import React from "react";
 
+
+
 import aboutMain from "../../assets/images/about/img1.png";
 import Engagement from "../../assets/images/about/Enagagement.png";
 import coomunication from "../../assets/images/about/coomunication.png";
 
+import line from "../../assets/images/line.png";
+
 import "./about.css";
+import SectionLine from "../../components/sectionLine/SectionLine";
 
 function About() {
   return (
     <section className="about" id="About">
       <div className="container section_wrapper">
         <div className="row about_wrapper">
-          <div className="col-6 about_left">
-            <img src={aboutMain} alt="about" />
+          <div className="col-md-6 col-12 about_left">
+            <div className="about_left_image">
+              <img src={aboutMain} alt="about" />
+            </div>
           </div>
-          <div className="col-6 about_right">
+          <div className="col-md-6 col-12 about_right">
             <h1>ABOUT US</h1>
+            <span>
+              <img src={line} alt="line" />
+            </span>
             <p>
               We love what we do and are driven by achieving great results for
               our clients. Our awards and impressive client list are testament

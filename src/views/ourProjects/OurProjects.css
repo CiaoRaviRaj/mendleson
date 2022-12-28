@@ -1,14 +1,29 @@
 .ourProjects {
   margin-top: 119px;
+  position: relative;
 }
 .ourProjects .container .ourProjects_wrapper {
   width: 100%;
 }
 .ourProjects .container .ourProjects_wrapper .ourProjects_title {
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.ourProjects .container .ourProjects_wrapper .ourProjects_title span {
+  position: absolute;
+  top: 30px;
 }
 .ourProjects .container .ourProjects_wrapper .ourProjects_images_container {
+  width: 100%;
   margin-top: 34px;
+  gap: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 .ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_left {
   position: relative;
@@ -53,7 +68,7 @@
   width: 554px;
   height: 100%;
   color: #fff;
-  transition: all 1s ease-in;
+  transition: all 0.5s ease-in;
 }
 .ourProjects .container .ourProjects_wrapper .ourProjects_images_container .ourProjects_images_container_right .ourProjects_right_image1 .ourProjects_images_container_right_hover .ourProjects_images_container_right_hover_title {
   position: absolute;
@@ -74,7 +89,7 @@
   position: absolute;
   z-index: 2;
   top: 0;
-  left: 100%;
+  left: -100%;
   background-color: rgba(170, 170, 170, 0.3333333333);
   width: 554px;
   height: 100%;

@@ -1,18 +1,32 @@
 .ourProjects {
   margin-top: 119px;
+  position: relative;
   .container {
     .ourProjects_wrapper {
-        width: 100%;
+      width: 100%;
       .ourProjects_title {
         text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 48px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        span {
+          position: absolute;
+          top: 30px;
+        }
       }
 
       .ourProjects_images_container {
+        width: 100%;
         margin-top: 34px;
+        gap: 20px 0;
+        display: flex;
+        justify-content: center;
         .ourProjects_images_container_left {
           position: relative;
-          img {
-          }
+
           overflow: hidden;
           &:hover {
             .ourProjects_images_container_left_hover {
@@ -60,7 +74,7 @@
               height: 100%;
               color: #fff;
 
-              transition: all 1s ease-in;
+              transition: all 0.5s ease-in;
               .ourProjects_images_container_right_hover_title {
                 position: absolute;
                 top: 65%;
@@ -83,11 +97,11 @@
               position: absolute;
               z-index: 2;
               top: 0;
-              left: 100%;
+              left: -100%;
               background-color: #aaaaaa55;
               width: 554px;
               height: 100%;
-                color: #fff;
+              color: #fff;
               transition: all 0.5s ease-in;
 
               .ourProjects_images_container_right_hover_title {
